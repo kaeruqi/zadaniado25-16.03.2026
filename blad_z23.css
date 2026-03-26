@@ -1,0 +1,43 @@
+
+p#pogrubienie_bladowski {
+    font-size: 34px;
+    color: #92EDCC;
+    font-weight: bold;
+}
+
+
+p#pochylona_bladowski {
+    font-size: 39pt;
+    color: #F6C196;
+    font-style: italic;
+}
+
+
+p#index_gorny_bladowski {
+    font-size: 1.4cm;
+    color: #A6C778;
+    vertical-align: super;
+}
+
+p#index_dolny_bladowski {
+    font-size: 2.3cm;
+    color: rgb(26%, 95%, 88%);
+    vertical-align: sub;
+}
+
+p#mono_bladowski {
+    font-size: 44px;
+    color: #26DF96;
+    font-family: monospace;
+}
+
+
+p#powiekszenie_bladowski {
+    font-size: larger;
+    color: #60 3F 9A;
+}
+
+p#pomniejszenie_bladowski {
+    font-size: smaller;
+    color: rgb(77%, 64%, 21%);
+}

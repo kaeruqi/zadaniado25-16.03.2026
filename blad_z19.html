@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 19 - DIV i SPAN</title>
+
+    <style>
+        p {
+            color: red;
+            font-size: 40mm;
+        }
+
+        span {
+            color: green;
+            font-size: 25mm;
+        }
+
+        div {
+            background-color: silver;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Przykład 1 -->
+    <div>
+        <span>
+            <b>To jest pogrubienie w ramach DIV oraz SPAN i dlatego jest czerwone na żółtym tle</b>,
+            a to jest zwykły tekst - również wewnątrz DIV i SPAN.
+        </span>
+        To jest zwykły tekst, ale tylko wewnątrz DIV - dlatego nie jest czerwony, ale ma tło.
+        <p>A to jest akapit (element blokowy) w ramach DIV.</p>
+    </div>
+
+    <br><br>
+
+    <!-- Przykład 2 -->
+    <span>
+        <b>To jest pogrubienie (element wyświetlany w linii) w ramach SPAN</b>,
+        a to jest zwykły tekst - również wewnątrz span.
+    </span>
+
+    <br><br>
+
+    <!-- Przykład 3 -->
+    <ol>
+        <li style="color: rgb(148, 0, 211);">
+            <span style="color: black; font-size: 16px;">Punkt pierwszy</span>
+        </li>
+        <li style="color: rgb(255, 105, 180);">
+            <span style="color: black; font-size: 16px;">Punkt drugi</span>
+        </li>
+        <li style="color: rgb(173, 216, 230);">
+            <span style="color: black; font-size: 16px;">Punkt trzeci</span>
+        </li>
+    </ol>
+
+</body>
+</html>
+
+<!-- Jan Bladowski 1kp -->
